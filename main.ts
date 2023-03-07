@@ -4,7 +4,9 @@ function dibujar_laberinto() {
     }
 }
 
-// varible del larberinto       
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
+    dibujar_laberinto()
+})
 let laberinto : number[][] = []
 let y = 0
 let x = 0
